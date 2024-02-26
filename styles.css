@@ -1,0 +1,211 @@
+body {
+    width: 750px;
+    height: 1000px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    justify-self: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-radius: 25px;
+}
+
+header {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    /* grid-column: 2/3; */
+}
+
+header img {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    justify-self: center;
+    padding-top: 30px;
+}
+
+header h3 {
+    grid-column: 3/4;
+    grid-row: 1/2;
+    justify-self: center;
+    padding-top: 25px;
+}
+
+.upper-section {
+    grid-row: 2/4;
+    /* grid-column: 2/3; */
+    width: 100%;
+    display: grid;
+    background-color: #011c37;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-items: center;
+}
+
+.departtab {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    color: white;
+    font-family: Open Sans, Helvetica, sans-serif;
+}
+
+.plane-image {
+    grid-column: 2/3;
+}
+
+.arriveab {
+    grid-column: 3/4;
+    grid-row: 2/3;
+    color: white;
+    font-family: Open Sans, Helvetica, sans-serif;
+}
+
+.depart{
+    grid-column: 1/2;
+    color: gray;
+    align-self: end;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.arrive{
+    grid-column: 3/4;
+    color: gray;
+    align-self: end;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.departp{
+    grid-row: 3/4;
+    grid-column: 1/2;
+    color: gray;
+    align-self: start;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+.arrivep{
+    grid-row: 3/4;
+    grid-column: 3/4;
+    color: gray;
+    align-self: start;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+.middle-section {
+    width: 100%;
+    display: grid;
+    background-color: lightgray;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-row: 4/7;
+    justify-items: center;
+    /* grid-column: 2/3; */
+}
+
+.datetitle{
+    grid-column: 1/2;
+    align-self: end;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+.date{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    align-self: start;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+.flight{
+    grid-column: 2/3;
+    align-self: end;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+.flightnum {
+    grid-row: 2/3;
+    grid-column: 2/3;
+    align-self: start;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+.gate {
+    grid-column: 3/4;
+    align-self: end;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+.gatenum{
+    grid-row: 2/3;
+    grid-column: 3/4;
+    align-self: start;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+.seat{
+    grid-row: 3/4;
+    grid-column: 1/2;
+    align-self: end;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+.seatnum{
+    grid-row: 4/5;
+    grid-column: 1/2;
+    align-self: start;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+.boarding{
+    grid-row: 3/4;
+    grid-column: 2/3;
+    align-self: end;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+.boardingnum{
+    grid-row: 4/5;
+    grid-column: 2/3;
+    align-self: start;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+.boardingtime{
+    grid-column: 3/4;
+    grid-row: 3/4;
+    align-self: end;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+.time{
+    grid-row: 4/5;
+    grid-column: 3/4;
+    align-self: start;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+
+.bottom-section {
+    grid-row: 7/9;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+    /* grid-column: 2/3; */
+}
+
+.bottom-section p {
+    align-items: start;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+.bottom-section img {
+    align-items: end;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
